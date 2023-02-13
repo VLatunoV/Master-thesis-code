@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    145870,       3238]
-NotebookOptionsPosition[    143541,       3195]
-NotebookOutlinePosition[    143915,       3211]
-CellTagsIndexPosition[    143872,       3208]
+NotebookDataLength[    150497,       3354]
+NotebookOptionsPosition[    149349,       3325]
+NotebookOutlinePosition[    149723,       3341]
+CellTagsIndexPosition[    149680,       3338]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1270,7 +1270,7 @@ Cell[BoxData[{
        RowBox[{"Return", "[", 
         RowBox[{"{", 
          RowBox[{"solutionF", ",", "solutionH"}], "}"}], "]"}], ";"}]}], 
-     "\[IndentingNewLine]", "]"}]}], ";"}], "\[IndentingNewLine]"}], "\n", 
+     "\[IndentingNewLine]", "]"}]}], ";"}], "\n"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"numLevels", "=", "8"}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
@@ -1364,7 +1364,7 @@ Cell[BoxData[{
              RowBox[{"1", ";;", "All", ";;", "stride"}], ",", 
              RowBox[{"1", ";;", "All", ";;", "stride"}]}], "]"}], "]"}]}], 
          ";"}]}], "\[IndentingNewLine]", "]"}], ";"}]}], 
-    "\[IndentingNewLine]", "]"}], ";"}], "\[IndentingNewLine]"}], "\n", 
+    "\[IndentingNewLine]", "]"}], ";"}], "\n"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"calcStep", "@@", 
    RowBox[{"(", "intervals", ")"}]}], ";"}], "\n", 
@@ -1517,7 +1517,7 @@ Cell[BoxData[{
        RowBox[{"kk", ",", "1", ",", "t"}], "}"}], ",", 
       RowBox[{"{", 
        RowBox[{"i", ",", "1", ",", "n"}], "}"}]}], "]"}]}], ";"}], 
-  "\n"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{
    RowBox[{"computeConvergence", "[", "]"}], ":=", 
@@ -1674,7 +1674,11 @@ Cell[BoxData[{
          RowBox[{
           RowBox[{"#", "&"}], ",", 
           RowBox[{"numLevels", "-", "1"}]}], "]"}], ",", "None"}], "}"}]}], 
-     "}"}]}]}], "]"}], "\[IndentingNewLine]", 
+     "}"}]}], ",", 
+   RowBox[{"PlotMarkers", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"Automatic", ",", " ", "10"}], "}"}]}]}], 
+  "]"}], "\[IndentingNewLine]", 
  RowBox[{"ListLinePlot", "[", 
   RowBox[{
    RowBox[{"{", 
@@ -1706,7 +1710,10 @@ Cell[BoxData[{
          RowBox[{
           RowBox[{"#", "&"}], ",", 
           RowBox[{"numLevels", "-", "1"}]}], "]"}], ",", "None"}], "}"}]}], 
-     "}"}]}]}], "]"}]}], "Input",
+     "}"}]}], ",", 
+   RowBox[{"PlotMarkers", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"Automatic", ",", " ", "10"}], "}"}]}]}], "]"}]}], "Input",
  CellChangeTimes->{{3.8833994253081355`*^9, 3.883399477858903*^9}, {
    3.883399595132308*^9, 3.8833998337865095`*^9}, {3.88339990957773*^9, 
    3.8834001478141375`*^9}, {3.883400188632965*^9, 3.8834001976029263`*^9}, {
@@ -1777,160 +1784,9 @@ Cell[BoxData[{
    3.8851955691607256`*^9, 3.8851955815640087`*^9}, {3.8852061983209963`*^9, 
    3.8852062005681744`*^9}, 3.8852062419671793`*^9, 3.8852070484368486`*^9, 
    3.8852079268325977`*^9, {3.8852079895894127`*^9, 3.8852079896525745`*^9}, 
-   3.885220148062145*^9},
- CellLabel->
-  "In[1203]:=",ExpressionUUID->"a4c123cd-a0e9-43a4-95ad-ebbf1d7530b7"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- InterpretationBox["\<\"Done!\"\>",
-  StringForm["Done!"],
-  Editable->False]], "Print",
- CellChangeTimes->{{3.8852079646017075`*^9, 3.8852079904359436`*^9}, 
-   3.885220157407487*^9},
- CellLabel->
-  "During evaluation of \
-In[1203]:=",ExpressionUUID->"a2dcdff8-4e1c-4745-af46-f7c6b4bedbdf"],
-
-Cell[BoxData[
- InterpretationBox["\<\"Done!\"\>",
-  StringForm["Done!"],
-  Editable->False]], "Print",
- CellChangeTimes->{{3.8852079646017075`*^9, 3.8852079904359436`*^9}, 
-   3.8852201575389905`*^9},
- CellLabel->
-  "During evaluation of \
-In[1203]:=",ExpressionUUID->"05446411-33cc-4553-8faf-fd6b72865242"],
-
-Cell[BoxData[
- InterpretationBox["\<\"Done!\"\>",
-  StringForm["Done!"],
-  Editable->False]], "Print",
- CellChangeTimes->{{3.8852079646017075`*^9, 3.8852079904359436`*^9}, 
-   3.885220157875538*^9},
- CellLabel->
-  "During evaluation of \
-In[1203]:=",ExpressionUUID->"6b24a0fd-b874-49a8-ae9f-398035fdb634"],
-
-Cell[BoxData[
- InterpretationBox["\<\"Done!\"\>",
-  StringForm["Done!"],
-  Editable->False]], "Print",
- CellChangeTimes->{{3.8852079646017075`*^9, 3.8852079904359436`*^9}, 
-   3.885220159694313*^9},
- CellLabel->
-  "During evaluation of \
-In[1203]:=",ExpressionUUID->"573d402f-6253-4b6a-9623-8ee3a087fcab"],
-
-Cell[BoxData[
- InterpretationBox["\<\"Done!\"\>",
-  StringForm["Done!"],
-  Editable->False]], "Print",
- CellChangeTimes->{{3.8852079646017075`*^9, 3.8852079904359436`*^9}, 
-   3.885220173859293*^9},
- CellLabel->
-  "During evaluation of \
-In[1203]:=",ExpressionUUID->"bc2b2ca5-fadf-46eb-b16e-c6e1d8a1ee0f"],
-
-Cell[BoxData[
- InterpretationBox["\<\"Done!\"\>",
-  StringForm["Done!"],
-  Editable->False]], "Print",
- CellChangeTimes->{{3.8852079646017075`*^9, 3.8852079904359436`*^9}, 
-   3.8852203232104445`*^9},
- CellLabel->
-  "During evaluation of \
-In[1203]:=",ExpressionUUID->"fcf39d39-c4cf-4b19-9245-0c17baec9ec6"],
-
-Cell[BoxData[
- InterpretationBox["\<\"Done!\"\>",
-  StringForm["Done!"],
-  Editable->False]], "Print",
- CellChangeTimes->{{3.8852079646017075`*^9, 3.8852079904359436`*^9}, 
-   3.8852221973580456`*^9},
- CellLabel->
-  "During evaluation of \
-In[1203]:=",ExpressionUUID->"1988a3a0-aa2e-4f6c-b243-18ef35f3da84"],
-
-Cell[BoxData[
- InterpretationBox["\<\"Done!\"\>",
-  StringForm["Done!"],
-  Editable->False]], "Print",
- CellChangeTimes->{{3.8852079646017075`*^9, 3.8852079904359436`*^9}, 
-   3.885255461857561*^9},
- CellLabel->
-  "During evaluation of \
-In[1203]:=",ExpressionUUID->"c786973c-d891-4ba9-b51c-6abc37310005"]
-}, Open  ]],
-
-Cell[BoxData[
- InterpretationBox["\<\"Max error convergence F = \\!\\(\\*RowBox[{\\\"{\\\", \
-RowBox[{\\\"0.7428719447570564`\\\", \\\",\\\", \\\"2.4667621316642188`\\\", \
-\\\",\\\", \\\"1.870124478230093`\\\", \\\",\\\", \
-\\\"1.9669919179324797`\\\", \\\",\\\", \\\"1.9917626964186557`\\\", \
-\\\",\\\", \\\"1.9979437573630079`\\\", \\\",\\\", \
-\\\"1.9994866551942523`\\\"}], \\\"}\\\"}]\\)\"\>",
-  StringForm[
-  "Max error convergence F = ``", {0.7428719447570564, 2.4667621316642188`, 
-   1.870124478230093, 1.9669919179324797`, 1.9917626964186557`, 
-   1.9979437573630079`, 1.9994866551942523`}],
-  Editable->False]], "Output",
- CellChangeTimes->{3.8852079829645495`*^9, 3.8852081747419653`*^9, 
-  3.8852554941818104`*^9},
- CellLabel->
-  "Out[1219]=",ExpressionUUID->"b0769adb-6640-4a63-85af-0178579f86ec"],
-
-Cell[BoxData[
- InterpretationBox["\<\"Max error convergence H = \\!\\(\\*RowBox[{\\\"{\\\", \
-RowBox[{\\\"0.4598317560003726`\\\", \\\",\\\", \\\"1.100507043446007`\\\", \
-\\\",\\\", \\\"1.8217023823983016`\\\", \\\",\\\", \
-\\\"2.003290448851597`\\\", \\\",\\\", \\\"2.005311034018492`\\\", \\\",\\\", \
-\\\"2.0016282194410127`\\\", \\\",\\\", \\\"2.0004276305702584`\\\"}], \
-\\\"}\\\"}]\\)\"\>",
-  StringForm[
-  "Max error convergence H = ``", {0.4598317560003726, 1.100507043446007, 
-   1.8217023823983016`, 2.003290448851597, 2.005311034018492, 
-   2.0016282194410127`, 2.0004276305702584`}],
-  Editable->False]], "Output",
- CellChangeTimes->{3.8852079829645495`*^9, 3.8852081747419653`*^9, 
-  3.8852554942195463`*^9},
- CellLabel->
-  "Out[1220]=",ExpressionUUID->"fd12ce97-8022-4760-95e0-822409e1b72a"],
-
-Cell[BoxData[
- InterpretationBox["\<\"L2 norm convergence F = \\!\\(\\*RowBox[{\\\"{\\\", \
-RowBox[{\\\"1.4604246511257162`\\\", \\\",\\\", \\\"2.006792387334631`\\\", \
-\\\",\\\", \\\"2.058966961690244`\\\", \\\",\\\", \
-\\\"1.9885629400323344`\\\", \\\",\\\", \\\"1.995446176442025`\\\", \
-\\\",\\\", \\\"1.9987664856476859`\\\", \\\",\\\", \
-\\\"1.9996861455904944`\\\"}], \\\"}\\\"}]\\)\"\>",
-  StringForm[
-  "L2 norm convergence F = ``", {1.4604246511257162`, 2.006792387334631, 
-   2.058966961690244, 1.9885629400323344`, 1.995446176442025, 
-   1.9987664856476859`, 1.9996861455904944`}],
-  Editable->False]], "Output",
- CellChangeTimes->{3.8852079829645495`*^9, 3.8852081747419653`*^9, 
-  3.8852554942195463`*^9},
- CellLabel->
-  "Out[1221]=",ExpressionUUID->"14da7d79-fd00-40e0-b913-4014a670f74a"],
-
-Cell[BoxData[
- InterpretationBox["\<\"L2 norm convergence H = \\!\\(\\*RowBox[{\\\"{\\\", \
-RowBox[{\\\"0.8144590076845902`\\\", \\\",\\\", \\\"1.271635107159642`\\\", \
-\\\",\\\", \\\"1.9321274669494939`\\\", \\\",\\\", \
-\\\"2.0233499977383294`\\\", \\\",\\\", \\\"2.0090847497428035`\\\", \
-\\\",\\\", \\\"2.0024847914372907`\\\", \\\",\\\", \
-\\\"2.0006353007320166`\\\"}], \\\"}\\\"}]\\)\"\>",
-  StringForm[
-  "L2 norm convergence H = ``", {0.8144590076845902, 1.271635107159642, 
-   1.9321274669494939`, 2.0233499977383294`, 2.0090847497428035`, 
-   2.0024847914372907`, 2.0006353007320166`}],
-  Editable->False]], "Output",
- CellChangeTimes->{3.8852079829645495`*^9, 3.8852081747419653`*^9, 
-  3.885255494235173*^9},
- CellLabel->
-  "Out[1222]=",ExpressionUUID->"9803678e-a80e-48b6-8d4b-5a4847d5e168"],
+   3.885220148062145*^9, {3.8852890577376075`*^9, 
+   3.885289081057127*^9}},ExpressionUUID->"a4c123cd-a0e9-43a4-95ad-\
+ebbf1d7530b7"],
 
 Cell[BoxData[
  TemplateBox[{GraphicsBox[{{}, {{{}, {}, {
@@ -1969,8 +1825,71 @@ Cell[BoxData[
         LineBox[{{1., 0.25757957984362145`}, {2., -0.3069603850146031}, {
          3., -1.1883906742433528`}, {4., -2.5276393804418236`}, {
          5., -3.930118726660118}, {6., -5.322710156450325}, {
-         7., -6.710726843749254}, {
-         8., -8.09746156178035}}]}}}, {}, {}, {}, {}}, {
+         7., -6.710726843749254}, {8., -8.09746156178035}}]}}, {{
+        Directive[
+         PointSize[0.012833333333333334`], 
+         RGBColor[0.368417, 0.506779, 0.709798], 
+         AbsoluteThickness[1.6], 
+         AbsolutePointSize[6]], 
+        GeometricTransformationBox[
+         InsetBox[
+          BoxData[
+           FormBox[
+            StyleBox[
+            "\"\[FilledCircle]\"", FontSize -> 10, StripOnInput -> False], 
+            TraditionalForm]], {0., 0.}], {{{1., -0.5754219799081624}}, {{
+         2., -1.0903415739335993`}}, {{3., -2.8001707906086937`}}, {{
+         4., -4.096442299990021}}, {{5., -5.459857202089119}}, {{
+         6., -6.840441899456184}}, {{7., -8.225310981789697}}, {{
+         8., -9.611249519404828}}}]}, {
+        Directive[
+         PointSize[0.012833333333333334`], 
+         RGBColor[0.880722, 0.611041, 0.142051], 
+         AbsoluteThickness[1.6], 
+         AbsolutePointSize[6]], 
+        GeometricTransformationBox[
+         InsetBox[
+          BoxData[
+           FormBox[
+            StyleBox[
+            "\"\[FilledSquare]\"", FontSize -> 10, StripOnInput -> False], 
+            TraditionalForm]], {0., 0.}], {{{1., 0.4590029699807174}}, {{
+         2., -0.5532862593673147}}, {{3., -1.944288744617476}}, {{
+         4., -3.3714558889791455`}}, {{5., -4.749822684228554}}, {{
+         6., -6.132960575388466}}, {{7., -7.51839992951287}}, {{
+         8., -8.904476743333706}}}]}, {
+        Directive[
+         PointSize[0.012833333333333334`], 
+         RGBColor[0.560181, 0.691569, 0.194885], 
+         AbsoluteThickness[1.6], 
+         AbsolutePointSize[6]], 
+        GeometricTransformationBox[
+         InsetBox[
+          BoxData[
+           FormBox[
+            StyleBox[
+            "\"\[FilledDiamond]\"", FontSize -> 10, StripOnInput -> False], 
+            TraditionalForm]], {0., 0.}], {{{1., -0.5733190458478968}}, {{
+         2., -0.8920501310514838}}, {{3., -1.6548634854024449`}}, {{
+         4., -2.917571355581163}}, {{5., -4.306146482045315}}, {{
+         6., -5.69612217142098}}, {{7., -7.083545128255742}}, {{
+         8., -8.470135900299729}}}]}, {
+        Directive[
+         PointSize[0.012833333333333334`], 
+         RGBColor[0.922526, 0.385626, 0.209179], 
+         AbsoluteThickness[1.6], 
+         AbsolutePointSize[6]], 
+        GeometricTransformationBox[
+         InsetBox[
+          BoxData[
+           FormBox[
+            StyleBox[
+            "\"\[FilledUpTriangle]\"", FontSize -> 10, StripOnInput -> False],
+             TraditionalForm]], {0., 0.}], {{{1., 0.25757957984362145`}}, {{
+         2., -0.3069603850146031}}, {{3., -1.1883906742433528`}}, {{
+         4., -2.5276393804418236`}}, {{5., -3.930118726660118}}, {{
+         6., -5.322710156450325}}, {{7., -6.710726843749254}}, {{
+         8., -8.09746156178035}}}]}, {}}}, {}, {}, {}, {}}, {
     DisplayFunction -> Identity, GridLines -> {None, None}, DisplayFunction -> 
      Identity, DisplayFunction -> Identity, DisplayFunction -> Identity, 
      PlotRangePadding -> {{
@@ -2399,7 +2318,24 @@ Cell[BoxData[
                     GrayLevel[0]]], 
                     PointSize[0.231], 
                     RGBColor[0.368417, 0.506779, 0.709798], 
-                    AbsoluteThickness[1.6]], {}}}, AspectRatio -> Full, 
+                    AbsoluteThickness[1.6]], {
+                    InsetBox[
+                    FormBox[
+                    StyleBox["\"\[FilledCircle]\"", 
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.231], 
+                    RGBColor[0.368417, 0.506779, 0.709798], 
+                    AbsoluteThickness[1.6]], FontSize -> 10, Plain, 
+                    StripOnInput -> False], TraditionalForm], 
+                    NCache[
+                    Scaled[{
+                    Rational[1, 2], 
+                    Rational[1, 2]}], 
+                    Scaled[{0.5, 0.5}]]]}}}, AspectRatio -> Full, 
                     ImageSize -> {20, 10}, PlotRangePadding -> None, 
                     ImagePadding -> Automatic, 
                     BaselinePosition -> (Scaled[0.1] -> Baseline)], #}, {
@@ -2420,7 +2356,24 @@ Cell[BoxData[
                     GrayLevel[0]]], 
                     PointSize[0.231], 
                     RGBColor[0.880722, 0.611041, 0.142051], 
-                    AbsoluteThickness[1.6]], {}}}, AspectRatio -> Full, 
+                    AbsoluteThickness[1.6]], {
+                    InsetBox[
+                    FormBox[
+                    StyleBox["\"\[FilledSquare]\"", 
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.231], 
+                    RGBColor[0.880722, 0.611041, 0.142051], 
+                    AbsoluteThickness[1.6]], FontSize -> 10, Plain, 
+                    StripOnInput -> False], TraditionalForm], 
+                    NCache[
+                    Scaled[{
+                    Rational[1, 2], 
+                    Rational[1, 2]}], 
+                    Scaled[{0.5, 0.5}]]]}}}, AspectRatio -> Full, 
                     ImageSize -> {20, 10}, PlotRangePadding -> None, 
                     ImagePadding -> Automatic, 
                     BaselinePosition -> (Scaled[0.1] -> Baseline)], #2}, {
@@ -2441,7 +2394,24 @@ Cell[BoxData[
                     GrayLevel[0]]], 
                     PointSize[0.231], 
                     RGBColor[0.560181, 0.691569, 0.194885], 
-                    AbsoluteThickness[1.6]], {}}}, AspectRatio -> Full, 
+                    AbsoluteThickness[1.6]], {
+                    InsetBox[
+                    FormBox[
+                    StyleBox["\"\[FilledDiamond]\"", 
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.231], 
+                    RGBColor[0.560181, 0.691569, 0.194885], 
+                    AbsoluteThickness[1.6]], FontSize -> 10, Plain, 
+                    StripOnInput -> False], TraditionalForm], 
+                    NCache[
+                    Scaled[{
+                    Rational[1, 2], 
+                    Rational[1, 2]}], 
+                    Scaled[{0.5, 0.5}]]]}}}, AspectRatio -> Full, 
                     ImageSize -> {20, 10}, PlotRangePadding -> None, 
                     ImagePadding -> Automatic, 
                     BaselinePosition -> (Scaled[0.1] -> Baseline)], #3}, {
@@ -2462,7 +2432,24 @@ Cell[BoxData[
                     GrayLevel[0]]], 
                     PointSize[0.231], 
                     RGBColor[0.922526, 0.385626, 0.209179], 
-                    AbsoluteThickness[1.6]], {}}}, AspectRatio -> Full, 
+                    AbsoluteThickness[1.6]], {
+                    InsetBox[
+                    FormBox[
+                    StyleBox["\"\[FilledUpTriangle]\"", 
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.231], 
+                    RGBColor[0.922526, 0.385626, 0.209179], 
+                    AbsoluteThickness[1.6]], FontSize -> 10, Plain, 
+                    StripOnInput -> False], TraditionalForm], 
+                    NCache[
+                    Scaled[{
+                    Rational[1, 2], 
+                    Rational[1, 2]}], 
+                    Scaled[{0.5, 0.5}]]]}}}, AspectRatio -> Full, 
                     ImageSize -> {20, 10}, PlotRangePadding -> None, 
                     ImagePadding -> Automatic, 
                     BaselinePosition -> (Scaled[0.1] -> Baseline)], #4}}, 
@@ -2692,13 +2679,14 @@ Cell[BoxData[
              RowBox[{"{", 
                RowBox[{
                  RowBox[{"{", 
-                   RowBox[{"False", ",", "Automatic"}], "}"}], ",", 
+                   RowBox[{"\"\[FilledCircle]\"", ",", "10"}], "}"}], ",", 
                  RowBox[{"{", 
-                   RowBox[{"False", ",", "Automatic"}], "}"}], ",", 
+                   RowBox[{"\"\[FilledSquare]\"", ",", "10"}], "}"}], ",", 
                  RowBox[{"{", 
-                   RowBox[{"False", ",", "Automatic"}], "}"}], ",", 
+                   RowBox[{"\"\[FilledDiamond]\"", ",", "10"}], "}"}], ",", 
                  RowBox[{"{", 
-                   RowBox[{"False", ",", "Automatic"}], "}"}]}], "}"}]}], ",", 
+                   RowBox[{"\"\[FilledUpTriangle]\"", ",", "10"}], "}"}]}], 
+               "}"}]}], ",", 
            RowBox[{"Joined", "\[Rule]", 
              RowBox[{"{", 
                RowBox[{"True", ",", "True", ",", "True", ",", "True"}], 
@@ -2725,9 +2713,9 @@ Cell[BoxData[
        RowBox[{"Placed", "[", 
          RowBox[{#2, ",", "After"}], "]"}]}], "]"}]& )]], "Output",
  CellChangeTimes->{3.8852079829645495`*^9, 3.8852081747419653`*^9, 
-  3.8852554945984726`*^9},
+  3.8852554941818104`*^9, 3.885289064119916*^9},
  CellLabel->
-  "Out[1223]=",ExpressionUUID->"4f01899d-1287-42f3-bb25-0d4cf1f16dcf"],
+  "Out[1227]=",ExpressionUUID->"cd62c901-e14f-4af6-a2e2-3bacb624721d"],
 
 Cell[BoxData[
  TemplateBox[{GraphicsBox[{{}, {{{}, {}, {
@@ -2774,7 +2762,76 @@ Cell[BoxData[
         LineBox[{{1., 0.8144590076845902}, {2., 1.271635107159642}, {3., 
          1.9321274669494939`}, {4., 2.0233499977383294`}, {5., 
          2.0090847497428035`}, {6., 2.0024847914372907`}, {7., 
-         2.0006353007320166`}}]}}}, {}, {}, {}, {}}, {
+         2.0006353007320166`}}]}}, {{
+        Directive[
+         PointSize[
+          NCache[
+           Rational[7, 360], 0.019444444444444445`]], 
+         RGBColor[0.368417, 0.506779, 0.709798], 
+         AbsoluteThickness[1.6], 
+         AbsolutePointSize[6]], 
+        GeometricTransformationBox[
+         InsetBox[
+          BoxData[
+           FormBox[
+            StyleBox[
+            "\"\[FilledCircle]\"", FontSize -> 10, StripOnInput -> False], 
+            TraditionalForm]], {0., 0.}], {{{1., 0.7428719447570564}}, {{2., 
+         2.4667621316642188`}}, {{3., 1.870124478230093}}, {{4., 
+         1.9669919179324797`}}, {{5., 1.9917626964186557`}}, {{6., 
+         1.9979437573630079`}}, {{7., 1.9994866551942523`}}}]}, {
+        Directive[
+         PointSize[
+          NCache[
+           Rational[7, 360], 0.019444444444444445`]], 
+         RGBColor[0.880722, 0.611041, 0.142051], 
+         AbsoluteThickness[1.6], 
+         AbsolutePointSize[6]], 
+        GeometricTransformationBox[
+         InsetBox[
+          BoxData[
+           FormBox[
+            StyleBox[
+            "\"\[FilledSquare]\"", FontSize -> 10, StripOnInput -> False], 
+            TraditionalForm]], {0., 0.}], {{{1., 0.4598317560003726}}, {{2., 
+         1.100507043446007}}, {{3., 1.8217023823983016`}}, {{4., 
+         2.003290448851597}}, {{5., 2.005311034018492}}, {{6., 
+         2.0016282194410127`}}, {{7., 2.0004276305702584`}}}]}, {
+        Directive[
+         PointSize[
+          NCache[
+           Rational[7, 360], 0.019444444444444445`]], 
+         RGBColor[0.560181, 0.691569, 0.194885], 
+         AbsoluteThickness[1.6], 
+         AbsolutePointSize[6]], 
+        GeometricTransformationBox[
+         InsetBox[
+          BoxData[
+           FormBox[
+            StyleBox[
+            "\"\[FilledDiamond]\"", FontSize -> 10, StripOnInput -> False], 
+            TraditionalForm]], {0., 0.}], {{{1., 1.4604246511257162`}}, {{2., 
+         2.006792387334631}}, {{3., 2.058966961690244}}, {{4., 
+         1.9885629400323344`}}, {{5., 1.995446176442025}}, {{6., 
+         1.9987664856476859`}}, {{7., 1.9996861455904944`}}}]}, {
+        Directive[
+         PointSize[
+          NCache[
+           Rational[7, 360], 0.019444444444444445`]], 
+         RGBColor[0.922526, 0.385626, 0.209179], 
+         AbsoluteThickness[1.6], 
+         AbsolutePointSize[6]], 
+        GeometricTransformationBox[
+         InsetBox[
+          BoxData[
+           FormBox[
+            StyleBox[
+            "\"\[FilledUpTriangle]\"", FontSize -> 10, StripOnInput -> False],
+             TraditionalForm]], {0., 0.}], {{{1., 0.8144590076845902}}, {{2., 
+         1.271635107159642}}, {{3., 1.9321274669494939`}}, {{4., 
+         2.0233499977383294`}}, {{5., 2.0090847497428035`}}, {{6., 
+         2.0024847914372907`}}, {{7., 
+         2.0006353007320166`}}}]}, {}}}, {}, {}, {}, {}}, {
     DisplayFunction -> Identity, PlotRangePadding -> {{
         Scaled[0.02], 
         Scaled[0.02]}, {
@@ -2849,7 +2906,25 @@ Cell[BoxData[
                     NCache[
                     Rational[7, 20], 0.35]], 
                     RGBColor[0.368417, 0.506779, 0.709798], 
-                    AbsoluteThickness[1.6]], {}}}, AspectRatio -> Full, 
+                    AbsoluteThickness[1.6]], {
+                    InsetBox[
+                    FormBox[
+                    StyleBox["\"\[FilledCircle]\"", 
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[
+                    Rational[7, 20]], 
+                    RGBColor[0.368417, 0.506779, 0.709798], 
+                    AbsoluteThickness[1.6]], FontSize -> 10, Plain, 
+                    StripOnInput -> False], TraditionalForm], 
+                    NCache[
+                    Scaled[{
+                    Rational[1, 2], 
+                    Rational[1, 2]}], 
+                    Scaled[{0.5, 0.5}]]]}}}, AspectRatio -> Full, 
                     ImageSize -> {20, 10}, PlotRangePadding -> None, 
                     ImagePadding -> Automatic, 
                     BaselinePosition -> (Scaled[0.1] -> Baseline)], #}, {
@@ -2874,7 +2949,25 @@ Cell[BoxData[
                     NCache[
                     Rational[7, 20], 0.35]], 
                     RGBColor[0.880722, 0.611041, 0.142051], 
-                    AbsoluteThickness[1.6]], {}}}, AspectRatio -> Full, 
+                    AbsoluteThickness[1.6]], {
+                    InsetBox[
+                    FormBox[
+                    StyleBox["\"\[FilledSquare]\"", 
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[
+                    Rational[7, 20]], 
+                    RGBColor[0.880722, 0.611041, 0.142051], 
+                    AbsoluteThickness[1.6]], FontSize -> 10, Plain, 
+                    StripOnInput -> False], TraditionalForm], 
+                    NCache[
+                    Scaled[{
+                    Rational[1, 2], 
+                    Rational[1, 2]}], 
+                    Scaled[{0.5, 0.5}]]]}}}, AspectRatio -> Full, 
                     ImageSize -> {20, 10}, PlotRangePadding -> None, 
                     ImagePadding -> Automatic, 
                     BaselinePosition -> (Scaled[0.1] -> Baseline)], #2}, {
@@ -2899,7 +2992,25 @@ Cell[BoxData[
                     NCache[
                     Rational[7, 20], 0.35]], 
                     RGBColor[0.560181, 0.691569, 0.194885], 
-                    AbsoluteThickness[1.6]], {}}}, AspectRatio -> Full, 
+                    AbsoluteThickness[1.6]], {
+                    InsetBox[
+                    FormBox[
+                    StyleBox["\"\[FilledDiamond]\"", 
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[
+                    Rational[7, 20]], 
+                    RGBColor[0.560181, 0.691569, 0.194885], 
+                    AbsoluteThickness[1.6]], FontSize -> 10, Plain, 
+                    StripOnInput -> False], TraditionalForm], 
+                    NCache[
+                    Scaled[{
+                    Rational[1, 2], 
+                    Rational[1, 2]}], 
+                    Scaled[{0.5, 0.5}]]]}}}, AspectRatio -> Full, 
                     ImageSize -> {20, 10}, PlotRangePadding -> None, 
                     ImagePadding -> Automatic, 
                     BaselinePosition -> (Scaled[0.1] -> Baseline)], #3}, {
@@ -2924,7 +3035,25 @@ Cell[BoxData[
                     NCache[
                     Rational[7, 20], 0.35]], 
                     RGBColor[0.922526, 0.385626, 0.209179], 
-                    AbsoluteThickness[1.6]], {}}}, AspectRatio -> Full, 
+                    AbsoluteThickness[1.6]], {
+                    InsetBox[
+                    FormBox[
+                    StyleBox["\"\[FilledUpTriangle]\"", 
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[
+                    Rational[7, 20]], 
+                    RGBColor[0.922526, 0.385626, 0.209179], 
+                    AbsoluteThickness[1.6]], FontSize -> 10, Plain, 
+                    StripOnInput -> False], TraditionalForm], 
+                    NCache[
+                    Scaled[{
+                    Rational[1, 2], 
+                    Rational[1, 2]}], 
+                    Scaled[{0.5, 0.5}]]]}}}, AspectRatio -> Full, 
                     ImageSize -> {20, 10}, PlotRangePadding -> None, 
                     ImagePadding -> Automatic, 
                     BaselinePosition -> (Scaled[0.1] -> Baseline)], #4}}, 
@@ -3154,13 +3283,14 @@ Cell[BoxData[
              RowBox[{"{", 
                RowBox[{
                  RowBox[{"{", 
-                   RowBox[{"False", ",", "Automatic"}], "}"}], ",", 
+                   RowBox[{"\"\[FilledCircle]\"", ",", "10"}], "}"}], ",", 
                  RowBox[{"{", 
-                   RowBox[{"False", ",", "Automatic"}], "}"}], ",", 
+                   RowBox[{"\"\[FilledSquare]\"", ",", "10"}], "}"}], ",", 
                  RowBox[{"{", 
-                   RowBox[{"False", ",", "Automatic"}], "}"}], ",", 
+                   RowBox[{"\"\[FilledDiamond]\"", ",", "10"}], "}"}], ",", 
                  RowBox[{"{", 
-                   RowBox[{"False", ",", "Automatic"}], "}"}]}], "}"}]}], ",", 
+                   RowBox[{"\"\[FilledUpTriangle]\"", ",", "10"}], "}"}]}], 
+               "}"}]}], ",", 
            RowBox[{"Joined", "\[Rule]", 
              RowBox[{"{", 
                RowBox[{"True", ",", "True", ",", "True", ",", "True"}], 
@@ -3187,9 +3317,9 @@ Cell[BoxData[
        RowBox[{"Placed", "[", 
          RowBox[{#2, ",", "After"}], "]"}]}], "]"}]& )]], "Output",
  CellChangeTimes->{3.8852079829645495`*^9, 3.8852081747419653`*^9, 
-  3.8852554949213715`*^9},
+  3.8852554941818104`*^9, 3.8852890643586454`*^9},
  CellLabel->
-  "Out[1224]=",ExpressionUUID->"b4cd4af3-6364-4dcb-8909-8622b5559068"]
+  "Out[1228]=",ExpressionUUID->"52a5a1ab-580c-4c2c-9ff2-856432091832"]
 }, Open  ]]
 }, Open  ]]
 },
@@ -3221,23 +3351,9 @@ Cell[8268, 183, 37873, 873, 4424, "Input",ExpressionUUID->"b7dc6190-5aa6-4900-b2
 Cell[CellGroupData[{
 Cell[46178, 1061, 251, 4, 99, "Section",ExpressionUUID->"f6bc9c63-f06f-46b3-a305-6ddd19b3668f"],
 Cell[CellGroupData[{
-Cell[46454, 1069, 29570, 712, 3101, "Input",ExpressionUUID->"a4c123cd-a0e9-43a4-95ad-ebbf1d7530b7"],
-Cell[CellGroupData[{
-Cell[76049, 1785, 305, 8, 34, "Print",ExpressionUUID->"a2dcdff8-4e1c-4745-af46-f7c6b4bedbdf"],
-Cell[76357, 1795, 307, 8, 34, "Print",ExpressionUUID->"05446411-33cc-4553-8faf-fd6b72865242"],
-Cell[76667, 1805, 305, 8, 34, "Print",ExpressionUUID->"6b24a0fd-b874-49a8-ae9f-398035fdb634"],
-Cell[76975, 1815, 305, 8, 34, "Print",ExpressionUUID->"573d402f-6253-4b6a-9623-8ee3a087fcab"],
-Cell[77283, 1825, 305, 8, 34, "Print",ExpressionUUID->"bc2b2ca5-fadf-46eb-b16e-c6e1d8a1ee0f"],
-Cell[77591, 1835, 307, 8, 34, "Print",ExpressionUUID->"fcf39d39-c4cf-4b19-9245-0c17baec9ec6"],
-Cell[77901, 1845, 307, 8, 34, "Print",ExpressionUUID->"1988a3a0-aa2e-4f6c-b243-18ef35f3da84"],
-Cell[78211, 1855, 305, 8, 34, "Print",ExpressionUUID->"c786973c-d891-4ba9-b51c-6abc37310005"]
-}, Open  ]],
-Cell[78531, 1866, 813, 15, 68, "Output",ExpressionUUID->"b0769adb-6640-4a63-85af-0178579f86ec"],
-Cell[79347, 1883, 807, 15, 68, "Output",ExpressionUUID->"fd12ce97-8022-4760-95e0-822409e1b72a"],
-Cell[80157, 1900, 804, 15, 68, "Output",ExpressionUUID->"14da7d79-fd00-40e0-b913-4014a670f74a"],
-Cell[80964, 1917, 807, 15, 68, "Output",ExpressionUUID->"9803678e-a80e-48b6-8d4b-5a4847d5e168"],
-Cell[81774, 1934, 39708, 795, 367, "Output",ExpressionUUID->"4f01899d-1287-42f3-bb25-0d4cf1f16dcf"],
-Cell[121485, 2731, 22028, 460, 434, "Output",ExpressionUUID->"b4cd4af3-6364-4dcb-8909-8622b5559068"]
+Cell[46454, 1069, 29828, 719, 3135, "Input",ExpressionUUID->"a4c123cd-a0e9-43a4-95ad-ebbf1d7530b7"],
+Cell[76285, 1790, 45265, 927, 367, "Output",ExpressionUUID->"cd62c901-e14f-4af6-a2e2-3bacb624721d"],
+Cell[121553, 2719, 27768, 602, 401, "Output",ExpressionUUID->"52a5a1ab-580c-4c2c-9ff2-856432091832"]
 }, Open  ]]
 }, Open  ]]
 }
